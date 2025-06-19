@@ -36,6 +36,14 @@ This project follows the **6-step Google Data Analytics process**:
 | ✅ **Act**      | Recommend data-informed business strategies                      | [`/act`](./act)         |
 
 ---
+## 📁 Phase-by-Phase Folder Details
+
+### 🔍 `/ask`
+> Defines the business task and key questions guiding the analysis.
+
+📄 `business_task.md` – Clearly states the problem and goal of the project  
+📄 `stakeholders.md` – Identifies who will benefit from the analysis  
+📄 `guiding_questions.md` – Lists the key questions that shape the analytical approach
 
 ## 🧰 **Tools Used**
 
