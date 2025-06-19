@@ -1,39 +1,18 @@
 # ✅ Business Task – Cyclistic Case Study
 
-## 📌 İş Problemi (Business Problem)
-Cyclistic, Chicago merkezli bir bisiklet paylaşım şirketidir. Pazarlama ekibi, **günlük kullanıcıları (casual riders)**, **yıllık üyelere (annual members)** dönüştürmek istiyor. Bu dönüşümü desteklemek için, kullanıcı gruplarının bisiklet kullanım davranışlarının detaylı bir analizine ihtiyaç vardır.
+## 📌 Business Problem
+Cyclistic is a Chicago-based bike-sharing company. The marketing team is aiming to convert **casual riders** into **annual members**. To support this conversion, there is a need for a detailed analysis of how different user groups interact with the service.
 
-## 🎯 İş Görevi (Business Task)
+## 🎯 Business Task
 > "Annual members and casual riders use Cyclistic bikes differently. We want to understand those differences."
 
-Amaç, bu farklılıkları veriyle ortaya koyarak pazarlama stratejilerinin daha iyi hedeflenmesini sağlamak ve böylece **yıllık üyeliklerin artırılmasına katkı sunmaktır**.
+The goal is to use data to uncover behavioral differences and shape marketing strategies that will help increase **annual memberships**.
 
-## ❓ Temel Sorular
-1. Annual members ve casual riders Cyclistic bisikletlerini nasıl farklı kullanıyor?
-2. Casual riders neden yıllık üyelik satın alsın?
-3. Cyclistic, casual riders’ı üyeliğe teşvik etmek için dijital medyayı nasıl etkili kullanabilir?
+## ❓ Key Questions
+1. How do annual members and casual riders use Cyclistic bikes differently?  
+2. Why would casual riders consider purchasing an annual membership?  
+3. How can Cyclistic effectively use digital media to influence casual riders to become members?
 
-### 📊 Odaklanılan Soru
-> Bu analizde 1. soruya odaklanılacaktır:  
-**“Annual members ve casual riders Cyclistic bisikletlerini nasıl farklı kullanıyor?”**
-
----
-
-### 2. `stakeholders.md`
-Projenin paydaşlarını içeren dosya:
-
-```markdown
-# 👥 Key Stakeholders – Cyclistic Case Study
-
-## 👩‍💼 Lily Moreno
-- Görev: Pazarlama Direktörü
-- Rol: Analizin talep sahibi, pazarlama stratejilerinin yöneticisi
-
-## 📊 Pazarlama Analiz Ekibi
-- Rol: Veri toplama, analiz, görselleştirme ve raporlama
-
-## 🧑‍💼 Cyclistic Üst Yönetimi
-- Rol: Nihai karar verici, bütçe ve kampanya onayları
-
-## 🚲 Mevcut Kullanıcılar
-- Rol: Kampanyaların hedef kitlesi (özellikle casual riders)
+### 📊 Focus Question
+> This analysis will primarily focus on the first question:  
+**"How do annual members and casual riders use Cyclistic bikes differently?"**
