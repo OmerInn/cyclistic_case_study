@@ -2,8 +2,6 @@
 
 ## 📌 **Project Introduction**
 
-## 📌 **Project Introduction**
-
 This project is a comprehensive end-to-end data analysis case study focused on understanding **user behavior** in a bike-sharing system and supporting **data-driven decision making** for business growth.
 
 The subject of analysis is **Cyclistic**, a fictional bike-share company based in Chicago that offers bike rentals through two customer types:  
