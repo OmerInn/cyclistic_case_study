@@ -52,18 +52,18 @@ This project follows the **6-step Google Data Analytics process**:
 📄 `integrity_check.md` – Validates data quality, privacy, and ROCCC compliance  
 📁 `raw_data/` – Contains downloaded original CSV files
 
+### 🧹 Process
+> Cleans and prepares the dataset for accurate analysis and visualization.
+
+📄 `data_cleaning_google_sheets.md` – Step-by-step documentation of cleaning and transformation tasks done in Google Sheets, including formulas used and screenshots of the process.
+📁 `screenshots/` – Contains visual references for calculated columns like `ride_length` and `day_of_week`.
+
 ## 🧰 **Tools Used**
 
 - **Google Sheets** – Initial data cleaning and calculations  
 - **SQL (BigQuery)** – Filtering, grouping, and transforming data  
 - **R / RStudio** – Advanced analysis and data visualizations (with `ggplot2`)  
 - **GitHub** – Version control and documentation  
-
-### 🧹 Process
-> Cleans and prepares the dataset for accurate analysis and visualization.
-
-📄 `data_cleaning_google_sheets.md` – Step-by-step documentation of cleaning and transformation tasks done in Google Sheets, including formulas used and screenshots of the process.
-📁 `screenshots/` – Contains visual references for calculated columns like `ride_length` and `day_of_week`.
 
 ---
 
