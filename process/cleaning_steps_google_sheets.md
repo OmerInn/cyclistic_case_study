@@ -1,9 +1,9 @@
-# 🧹 Data Cleaning – Google Sheets
+#  Data Cleaning – Google Sheets
 
-## 📌 Tool Used
+##  Tool Used
 - Data cleaning and transformation were performed using **Google Sheets**.
 
-## 🧪 Cleaning Steps
+##  Cleaning Steps
 
 1. **Calculated `ride_length`:**
    - Computed using the formula `=ended_at - started_at`.
