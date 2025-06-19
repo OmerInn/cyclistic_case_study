@@ -2,9 +2,25 @@
 
 ## 📌 **Project Introduction**
 
-This case study explores *Cyclistic*, a fictional bike-share company based in Chicago, and its strategy to convert **casual riders** into **annual members** through data-driven marketing.
+## 📌 **Project Introduction**
 
-As a junior data analyst on the marketing analytics team, I conducted a 12-month ride behavior analysis using **Google Sheets**, **SQL**, and **R**. The objective was to generate actionable insights that guide the company’s growth strategy.
+This project is a comprehensive end-to-end data analysis case study focused on understanding **user behavior** in a bike-sharing system and supporting **data-driven decision making** for business growth.
+
+The subject of analysis is **Cyclistic**, a fictional bike-share company based in Chicago that offers bike rentals through two customer types:  
+- **Casual riders** (single-use or occasional users)  
+- **Annual members** (subscribed users)
+
+The main objective is to identify how ride patterns differ between these two groups and to uncover opportunities to **convert casual riders into annual members** — thereby increasing customer retention and long-term revenue.
+
+To answer the central business question, I analyzed **12 months of trip data** (over 5 million records) using:
+- **Google Sheets** for early-stage data exploration
+- **SQL (BigQuery)** for large-scale data cleaning and summarization
+- **R (RStudio)** for in-depth analysis, visualization, and reporting
+
+This study applies the full **six-step data analysis process** defined in the *Google Data Analytics Certificate*, including defining the business task, preparing and cleaning the data, conducting exploratory and descriptive analysis, visualizing key trends, and formulating strategic recommendations.
+
+The project showcases how a well-structured analytical workflow using multiple tools can help businesses make informed, actionable decisions.
+
 
 ---
 
