@@ -73,13 +73,22 @@ This project follows the **6-step Google Data Analytics process**:
 ```plaintext
 cyclistic_case_study/
 ├── ask/
+    ├── business_task.md
+    ├── stakeholders.md
+    └── guiding_questions.md
 ├── prepare/
-│   ├── raw_data/
-│   ├── google_sheets/
+├── raw_data/
+│   ├── Divvy_Trips_2019_Q1.csv
+│   └── Divvy_Trips_2020_Q1.csv
+├── data_overview.md
+└── integrity_check.md
 ├── process/
-│   ├── sql_queries/
-│   ├── r_scripts/
-│   ├── cleaned_data/
+    ├── data_cleaning_google_sheets.md
+    └── screenshots/
+        ├── ride_length_2019.png
+        ├── ride_length_2020.png
+        ├── day_of_week_2019.png
+        └── day_of_week_2020.png
 ├── analyze/
 │   ├── visualizations/
 │   ├── summary_stats.csv
