@@ -55,8 +55,9 @@ This project follows the **6-step Google Data Analytics process**:
 ### 🧹 Process
 > Cleans and prepares the dataset for accurate analysis and visualization.
 
-📄 `data_cleaning_google_sheets.md` – Step-by-step documentation of cleaning and transformation tasks done in Google Sheets, including formulas used and screenshots of the process.
-📁 `screenshots/` – Contains visual references for calculated columns like `ride_length` and `day_of_week`.
+- 📄 `data_cleaning_google_sheets.md` – Step-by-step documentation of cleaning and transformation tasks done in Google Sheets, including formulas used and screenshots of the process.  
+- 📁 `screenshots/` – Contains visual references for calculated columns like `ride_length` and `day_of_week`.
+
 
 ## 🧰 **Tools Used**
 
