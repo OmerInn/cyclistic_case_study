@@ -45,6 +45,13 @@ This project follows the **6-step Google Data Analytics process**:
 📄 `stakeholders.md` – Identifies who will benefit from the analysis  
 📄 `guiding_questions.md` – Lists the key questions that shape the analytical approach
 
+### 📦 Prepare
+> Describes the source, structure, and integrity of the dataset used.
+
+📄 `data_overview.md` – Explains where the data came from and how it’s structured  
+📄 `integrity_check.md` – Validates data quality, privacy, and ROCCC compliance  
+📁 `raw_data/` – Contains downloaded original CSV files
+
 ## 🧰 **Tools Used**
 
 - **Google Sheets** – Initial data cleaning and calculations  
