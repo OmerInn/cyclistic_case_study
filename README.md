@@ -38,7 +38,7 @@ This project follows the **6-step Google Data Analytics process**:
 ---
 ## 📁 Phase-by-Phase Folder Details
 
-### 🔍 `/ask`
+### 🔍 Ask
 > Defines the business task and key questions guiding the analysis.
 
 📄 `business_task.md` – Clearly states the problem and goal of the project  
