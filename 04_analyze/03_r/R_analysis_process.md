@@ -224,6 +224,21 @@ all_trips_v2 %>%
 ![Number of Rides by Weekday](./outputs/rides_by_weekday.png)  
 📝 *Bar chart showing the number of rides per day, separated by user type (casual vs. member).*
 
+
+####📊 2. Average Ride Duration by Weekday and User Type
+```
+all_trips_v2 %>%
+  mutate(weekday = wday(started_at, label = TRUE)) %>%
+  group_by(member_casual, weekday) %>%
+  summarise(average_duration = mean(ride_length)) %>%
+  ggplot(aes(x = weekday, y = average_duration, fill = member_casual)) + 
+  geom_col(position = "dodge") +
+  labs(title = "Average Ride Duration by Weekday",
+       x = "Day of the Week",
+       y = "Avg Duration (seconds)",
+       fill = "User Type") +
+  theme_minimal()
+```
 ![Average Ride Duration by Weekday](./outputs/avg_ride_duration_by_weekday.png)  
 📝 *Bar chart displaying average ride duration (in seconds) for each day of the week, comparing members and casual riders.*
 
