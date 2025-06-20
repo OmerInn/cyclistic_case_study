@@ -1,4 +1,4 @@
-# 🧠 SQL Analysis – Cyclistic Case Study
+#  SQL Analysis – Cyclistic Case Study
 
 This folder (`sql_analysis/`) contains the full SQL-based analysis conducted as part of the Cyclistic bike-share case study.
 
