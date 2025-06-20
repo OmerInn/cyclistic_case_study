@@ -26,14 +26,14 @@ The project showcases how a well-structured analytical workflow using multiple t
 
 This project follows the **6-step Google Data Analytics process**:
 
-| Phase           | Description                                                        | Folder                        |
-| --------------- | -------------------------------------------------------------------|-------------------------------|
-| 🔍 **Ask**       | Define business objective and identify stakeholders              | [`/01_ask`](./01_ask)         |
-| 📦 **Prepare**   | Locate, assess, and verify data sources and integrity            | [`/02_prepare`](./02_prepare) |
-| 🧹 **Process**   | Clean, format, and transform data for analysis                   | [`/03_process`](./03_process) |
-| 📊 **Analyze**   | Conduct descriptive analysis and identify trends and differences | [`/04_analyze`](./04_analyze) |
-| 🔣 **Share**     | Present key findings with visualizations for stakeholders        | [`/05_share`](./05_share)     |
-| ✅ **Act**       | Recommend data-informed business strategies                      | [`/06_act`](./06_act)         |
+| Phase      | Description                                                      | Folder                  |
+| ---------- | ---------------------------------------------------------------- | ----------------------- |
+| 🔍 **Ask**     | Define business objective and identify stakeholders              | [`/ask`](./ask)         |
+| 📦 **Prepare** | Locate, assess, and verify data sources and integrity            | [`/prepare`](./prepare) |
+| 🧹 **Process** | Clean, format, and transform data for analysis                   | [`/process`](./process) |
+| 📊 **Analyze** | Conduct descriptive analysis and identify trends and differences | [`/analyze`](./analyze) |
+| 🔣 **Share**   | Present key findings with visualizations for stakeholders        | [`/share`](./share)     |
+| ✅ **Act**      | Recommend data-informed business strategies                      | [`/act`](./act)         |
 
 ---
 ## 📁 Phase-by-Phase Folder Details
