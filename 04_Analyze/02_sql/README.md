@@ -1,6 +1,6 @@
 # 🧠 SQL Analysis – Cyclistic Case Study
 
-This folder (`analyze/sql_analysis/`) contains the full SQL-based analysis conducted as part of the Cyclistic bike-share case study.
+This folder (`sql_analysis/`) contains the full SQL-based analysis conducted as part of the Cyclistic bike-share case study.
 
 The analysis focuses on exploring ride data from Q1 2019 and Q1 2020 using Google BigQuery to identify behavioral differences between casual riders and annual members.
 
@@ -10,8 +10,8 @@ The analysis focuses on exploring ride data from Q1 2019 and Q1 2020 using Googl
 
 | File Name                    | Description                                                                 |
 |-----------------------------|-----------------------------------------------------------------------------|
-| `sql_analysis_process.md`   | Step-by-step documentation of SQL queries used to explore, clean, and prepare data. *(Located in `analyze/sql_analysis/`)* |
-| `summary_findings.md`       | Key insights and business implications based on SQL analysis results. *(Located in `analyze/sql_analysis/`)* |
+| `sql_analysis_process.md`   | Step-by-step documentation of SQL queries used to explore, clean, and prepare data. *(Located in `sql_analysis/`)* |
+| `summary_findings.md`       | Key insights and business implications based on SQL analysis results. *(Located in `sql_analysis/`)* |
 
 ---
 
