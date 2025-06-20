@@ -63,7 +63,7 @@ This project follows the **6-step Google Data Analytics process**:
 
 ---
 
-#### 📘 Google Sheets  
+##### 📘 Google Sheets  
 > Performs exploratory data analysis using pivot tables.
 
 📄 `pivot_analysis_summary.md` – Summary and interpretation of pivot-based metrics  
@@ -71,7 +71,7 @@ This project follows the **6-step Google Data Analytics process**:
 
 ---
 
-#### 💾 SQL  
+##### 💾 SQL  
 > Uses BigQuery to query, clean, and summarize data at scale.
 
 📄 `sql_analysis_process.md` – Full SQL workflow for combining, filtering, and aggregating ride data  
@@ -80,7 +80,7 @@ This project follows the **6-step Google Data Analytics process**:
 
 ---
 
-#### 📈 R  
+##### 📈 R  
 > Applies tidyverse-based R programming to visualize and export results.
 
 📄 `R_analysis_process.md` – Step-by-step R pipeline from import to visualization  
