@@ -58,6 +58,35 @@ This project follows the **6-step Google Data Analytics process**:
 - 📄 `data_cleaning_google_sheets.md` – Step-by-step documentation of cleaning and transformation tasks done in Google Sheets, including formulas used and screenshots of the process.  
 - 📁 `screenshots/` – Contains visual references for calculated columns like `ride_length` and `day_of_week`.
 
+### 📊 Analyze  
+> Conducts descriptive analysis using Google Sheets, SQL, and R to uncover patterns in user behavior.
+
+---
+
+#### 📘 Google Sheets  
+> Performs exploratory data analysis using pivot tables.
+
+📄 `pivot_analysis_summary.md` – Summary and interpretation of pivot-based metrics  
+📁 `screenshots/` – Screenshots showing formula use and field calculations  
+
+---
+
+#### 💾 SQL  
+> Uses BigQuery to query, clean, and summarize data at scale.
+
+📄 `sql_analysis_process.md` – Full SQL workflow for combining, filtering, and aggregating ride data  
+📄 `summary_findings.md` – Key findings and business insights from SQL analysis  
+📁 `queries/`, `outputs/`, `screenshots/` – Supporting SQL artifacts and visuals  
+
+---
+
+#### 📈 R  
+> Applies tidyverse-based R programming to visualize and export results.
+
+📄 `R_analysis_process.md` – Step-by-step R pipeline from import to visualization  
+📁 `outputs/` – Includes final charts and `avg_ride_length.csv` export
+
+
 
 ## 🧰 **Tools Used**
 
