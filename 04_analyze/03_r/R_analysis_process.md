@@ -225,7 +225,7 @@ all_trips_v2 %>%
 📝 *Bar chart showing the number of rides per day, separated by user type (casual vs. member).*
 
 
-####📊 2. Average Ride Duration by Weekday and User Type
+#### 📊 2. Average Ride Duration by Weekday and User Type
 ```
 all_trips_v2 %>%
   mutate(weekday = wday(started_at, label = TRUE)) %>%
