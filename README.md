@@ -61,7 +61,7 @@ This project follows the **6-step Google Data Analytics process**:
 ### 📊 Analyze  
 > Conducts descriptive analysis using Google Sheets, SQL, and R to uncover patterns in user behavior.
 
----
+
 
 ##### 📘 Google Sheets  
 > Performs exploratory data analysis using pivot tables.
