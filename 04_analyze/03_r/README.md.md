@@ -6,11 +6,11 @@ This folder contains the complete R-based data analysis workflow for the Cyclist
 
 ## 📁 Contents
 
-| File                            | Description                                               |
+| File                            | Description                                                
 |---------------------------------|-----------------------------------------------------------|
 | `R_analysis_process.md`         | Full step-by-step R analysis: import, clean, analyze, visualize, export |
 | `outputs/avg_ride_length.csv`   | Exported summary file: average ride length by weekday and user type |
-| `outputs/rides_by_weekday.png` | Bar chart: number of rides per weekday by user type       |
+| `outputs/rides_by_weekday.png`  | Bar chart: number of rides per weekday by user type       |
 | `outputs/avg_ride_duration_by_weekday.png` | Bar chart: average ride duration per weekday by user type |
 
 ---
