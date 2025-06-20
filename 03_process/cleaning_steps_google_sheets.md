@@ -9,15 +9,15 @@
    - Computed using the formula `=ended_at - started_at`.
    - Formatted as `HH:MM:SS` to represent trip duration.
    -  
-     ![ride_length_2019.png](./process/screenshots/ride_length_2019.png)  
-     ![ride_length_2020.png](./process/screenshots/ride_length_2020.png)
+      [ride length 2019.png](./screenshots/ride_length_2019.png)
+      [ride length 2020.png](./screenshots/ride_length_2020.png)
 
 2. **Created `day_of_week` column:**
    - Used the formula `=WEEKDAY(started_at, 1)` to identify the weekday of each ride.
    - Format: 1 = Sunday, 7 = Saturday.
    -  
-     ![day_of_week_2019.png](./process/screenshots/day_of_week_2019.png)  
-     ![day_of_week_2020.png](./process/screenshots/day_of_week_2020.png)
+      [day of week 2019.png](./screenshots/day_of_week_2019.png)
+      [day of week 2020.png](./screenshots/day_of_week_2020.png)
 
 3. **Identified and removed missing data:**
    - Rows with blank or null `started_at` or `ended_at` values were filtered out.
