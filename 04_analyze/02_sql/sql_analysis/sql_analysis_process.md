@@ -32,7 +32,7 @@ SELECT
   MAX(ended_at) AS last_ride
 FROM `cyclistic_case.divvy_trips_2019_Q1`;
 ```
-![Explore 2019 Dataset](./screenshots/Explore_your_data_2019.png)  
+![Explore 2019 Dataset](../screenshots/Explore_your_data_2019.png)  
 📝 *Total row count, unique ride IDs, and time range for Q1 2019.*
 ```
 SELECT 
@@ -42,7 +42,7 @@ SELECT
   MAX(ended_at) AS last_ride
 FROM `cyclistic_case.divvy_trips_2020_Q1`;
 ```
-![Explore 2020 Dataset](./screenshots/Explore_your_data_2020.png)  
+![Explore 2020 Dataset](../screenshots/Explore_your_data_2020.png)  
 📝 *Total row count, unique ride IDs, and time range for Q1 2020.*
 
 
@@ -57,7 +57,7 @@ SELECT
       EXTRACT(SECOND FROM ride_length)) AS avg_duration_seconds
 FROM `cyclistic_case.divvy_trips_2019_Q1`;
 ```
-![Summary Statistics 2019](./screenshots/create_summary_statistics_2019.png)  
+![Summary Statistics 2019](../screenshots/create_summary_statistics_2019.png)  
 📝 *Minimum, maximum, and average ride duration for Q1 2019.*
 
 For 2020 (with invalid ride lengths excluded):
@@ -71,7 +71,7 @@ SELECT
 FROM `cyclistic_case.divvy_trips_2020_Q1`
 WHERE ride_length != TIME '00:00:00';
 ```
-![Summary Statistics 2020](./screenshots/create_summary_statistics_2020.png)  
+![Summary Statistics 2020](../screenshots/create_summary_statistics_2020.png)  
 📝 *Minimum, maximum, and average ride duration for Q1 2020. Records with 0 duration were excluded.*
 
 ## Step 3 – Combine Datasets for Cross-Year Analysis
@@ -118,7 +118,7 @@ SELECT
   day_of_week
 FROM `cyclistic_case.divvy_trips_2020_Q1`;
 ```
-![Join Tables for Combined Analysis](./screenshots/use_join_if_neccessary_2019.png)  
+![Join Tables for Combined Analysis](../screenshots/use_join_if_neccessary_2019.png)  
 📝 *Combining 2019 and 2020 data using UNION ALL into a single clean schema.*
 
 ## Step 4 – Investigate Interesting Trends
@@ -135,10 +135,10 @@ SELECT
 FROM `cyclistic_case.divvy_trips_2019_Q1`
 GROUP BY member_casual, day_of_week;
 ```
-![Create Ride Trends Table (2019)](./screenshots/Investigate_interesting_trends_create_table_2019.png)  
+![Create Ride Trends Table (2019)](../screenshots/Investigate_interesting_trends_create_table_2019.png)  
 📝 *SQL query to create trend table summarizing average ride duration by day and user type (2019).*
 
-![Ride Trends 2019](./screenshots/Investigate_trends_2019.png)  
+![Ride Trends 2019](../screenshots/Investigate_trends_2019.png)  
 📝 *Aggregated ride duration by membership type and day of week (Q1 2019).*
 
 
@@ -156,6 +156,6 @@ FROM `cyclistic_case.divvy_trips_2020_Q1`
 GROUP BY member_casual, day_of_week;
 ```
 
-![Ride Trends 2020](./screenshots/Investigate_trends_2020.png)  
+![Ride Trends 2020](../screenshots/Investigate_trends_2020.png)  
 📝 *Aggregated ride duration by membership type and day of week (Q1 2020).*
 
