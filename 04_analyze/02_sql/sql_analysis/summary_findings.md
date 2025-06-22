@@ -59,8 +59,8 @@ This document summarizes the key findings from the SQL analysis of Cyclistic bik
 
 ## 📂 Source Files & References
 
-- [2019_summary.md](../2019_summary.md)  
-- [2020_summary.md](../2020_summary.md)  
+- [2019_summary.md](../outputs/2019_summary.md)  
+- [2020_summary.md](../outputs/2020_summary.md)  
 - SQL Tables:
   - `cyclistic_case.divvy_trips_2019_Q1`
   - `cyclistic_case.divvy_trips_2020_Q1`
