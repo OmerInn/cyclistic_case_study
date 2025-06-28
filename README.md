@@ -41,16 +41,16 @@ This project follows the **6-step Google Data Analytics process**:
 ### 🔍 Ask
 > Defines the business task and key questions guiding the analysis.
 
->📄 `business_task.md` – Clearly states the problem and goal of the project  
->📄 `stakeholders.md` – Identifies who will benefit from the analysis  
->📄 `guiding_questions.md` – Lists the key questions that shape the analytical approach
+-📄 `business_task.md` – Clearly states the problem and goal of the project  
+-📄 `stakeholders.md` – Identifies who will benefit from the analysis  
+-📄 `guiding_questions.md` – Lists the key questions that shape the analytical approach
 
 ### 📦 Prepare
 > Describes the source, structure, and integrity of the dataset used.
 
->📄 `data_overview.md` – Explains where the data came from and how it’s structured  
->📄 `integrity_check.md` – Validates data quality, privacy, and ROCCC compliance  
->📁 `raw_data/` – Contains downloaded original CSV files
+-📄 `data_overview.md` – Explains where the data came from and how it’s structured  
+-📄 `integrity_check.md` – Validates data quality, privacy, and ROCCC compliance  
+-📁 `raw_data/` – Contains downloaded original CSV files
 
 ### 🧹 Process
 > Cleans and prepares the dataset for accurate analysis and visualization.
@@ -66,25 +66,25 @@ This project follows the **6-step Google Data Analytics process**:
 ##### 📘 Google Sheets  
 > Performs exploratory data analysis using pivot tables.
 
->📄 `pivot_analysis_summary.md` – Summary and interpretation of pivot-based metrics  
->📁 `screenshots/` – Screenshots showing formula use and field calculations  
+-📄 `pivot_analysis_summary.md` – Summary and interpretation of pivot-based metrics  
+-📁 `screenshots/` – Screenshots showing formula use and field calculations  
 
 ---
 
 ##### 💾 SQL  
 > Uses BigQuery to query, clean, and summarize data at scale.
 
->📄 `sql_analysis_process.md` – Full SQL workflow for combining, filtering, and aggregating ride data  
->📄 `summary_findings.md` – Key findings and business insights from SQL analysis  
->📁 `queries/`, `outputs/`, `screenshots/` – Supporting SQL artifacts and visuals  
+-📄 `sql_analysis_process.md` – Full SQL workflow for combining, filtering, and aggregating ride data  
+-📄 `summary_findings.md` – Key findings and business insights from SQL analysis  
+-📁 `queries/`, `outputs/`, `screenshots/` – Supporting SQL artifacts and visuals  
 
 ---
 
 ##### 📈 R  
 > Applies tidyverse-based R programming to visualize and export results.
 
->📄 `R_analysis_process.md` – Step-by-step R pipeline from import to visualization  
->📁 `outputs/` – Includes final charts and `avg_ride_length.csv` export
+-📄 `R_analysis_process.md` – Step-by-step R pipeline from import to visualization  
+-📁 `outputs/` – Includes final charts and `avg_ride_length.csv` export
 
 ### 📤 Share
 > Communicates clear findings through polished visual slides for stakeholders.
@@ -96,9 +96,9 @@ This project follows the **6-step Google Data Analytics process**:
 ## ✅ Act
 Translates insights into practical business actions and next steps.
 
-> `01_recommendations.md` — Three prioritized recommendations for converting casual riders into annual members.
-> `02_business_actions.md` — Who, when, and how to implement each recommendation.
-> `03_final_conclusion.md` — Clear summary of findings and expected business impact.
+- `01_recommendations.md` — Three prioritized recommendations for converting casual riders into annual members.
+- `02_business_actions.md` — Who, when, and how to implement each recommendation.
+- `03_final_conclusion.md` — Clear summary of findings and expected business impact.
 
 ## 🧰 **Tools Used**
 
