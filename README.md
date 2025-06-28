@@ -86,6 +86,12 @@ This project follows the **6-step Google Data Analytics process**:
 📄 `R_analysis_process.md` – Step-by-step R pipeline from import to visualization  
 📁 `outputs/` – Includes final charts and `avg_ride_length.csv` export
 
+### 📤 Share
+> Communicates clear findings through polished visual slides for stakeholders.
+
+📄 `Cyclistic_Case_Study_Presentation.pdf` — Final slide deck summarizing the problem, analysis, insights, and recommendations.
+
+📄 `README.md` — Brief explanation of the presentation’s purpose and contents.
 
 
 ## 🧰 **Tools Used**
@@ -101,31 +107,54 @@ This project follows the **6-step Google Data Analytics process**:
 
 ```plaintext
 cyclistic_case_study/
-├── ask/
-    ├── business_task.md
-    ├── stakeholders.md
-    └── guiding_questions.md
-├── prepare/
-├── raw_data/
-│   ├── Divvy_Trips_2019_Q1.csv
-│   └── Divvy_Trips_2020_Q1.csv
-├── data_overview.md
-└── integrity_check.md
-├── process/
-    ├── data_cleaning_google_sheets.md
-    └── screenshots/
-        ├── ride_length_2019.png
-        ├── ride_length_2020.png
-        ├── day_of_week_2019.png
-        └── day_of_week_2020.png
-├── analyze/
-│   ├── visualizations/
-│   ├── summary_stats.csv
-├── share/
-│   ├── final_report.pdf
-│   └── slides/
-├── act/
+├── 01_ask/
+│   ├── business_task.md
+│   ├── stakeholders.md
+│   └── guiding_questions.md
+│
+├── 02_prepare/
+│   ├── raw_data/
+│   │   ├── Divvy_Trips_2019_Q1.csv
+│   │   └── Divvy_Trips_2020_Q1.csv
+│   ├── data_overview.md
+│   └── integrity_check.md
+│
+├── 03_process/
+│   ├── data_cleaning_google_sheets.md
+│   └── screenshots/
+│       ├── ride_length_2019.png
+│       ├── ride_length_2020.png
+│       ├── day_of_week_2019.png
+│       └── day_of_week_2020.png
+│
+├── 04_analyze/
+│   ├── 01_google_sheets/
+│   │   ├── pivot_analysis_summary.md
+│   │   └── screenshots/
+│   ├── 02_sql/
+│   │   ├── queries/
+│   │   │   ├── 2019_analysis.sql
+│   │   │   ├── 2020_analysis.sql
+│   │   ├── outputs/
+│   │   │   ├── 2019_summary.md
+│   │   │   ├── 2020_summary.md
+│   │   ├── screenshots/
+│   │   ├── sql_analysis_process.md
+│   │   └── summary_findings.md
+│   ├── 03_r/
+│   │   ├── R_analysis_process.md
+│   │   ├── outputs/
+│   │   │   ├── avg_ride_duration_by_weekday.png
+│   │   │   ├── rides_by_weekday.png
+│   │   └── README.md
+│
+├── 05_share/
+│   ├── Cyclistic_Case_Study_Presentation.pdf
+│   └── README.md
+│
+├── 06_act/
 │   ├── recommendations.md
 │   ├── business_actions.md
 │   └── final_conclusion.md
+│
 └── README.md
