@@ -153,8 +153,8 @@ cyclistic_case_study/
 │   └── README.md
 │
 ├── 06_act/
-│   ├── recommendations.md
-│   ├── business_actions.md
-│   └── final_conclusion.md
+│   ├── 01_recommendations.md
+│   ├── 02_business_actions.md
+│   └── 03_final_conclusion.md
 │
 └── README.md
