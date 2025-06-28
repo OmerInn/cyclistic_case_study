@@ -93,6 +93,12 @@ This project follows the **6-step Google Data Analytics process**:
 
 📄 `README.md` — Brief explanation of the presentation’s purpose and contents.
 
+## ✅ Act
+Translates insights into practical business actions and next steps.
+
+- `01_recommendations.md` — Three prioritized recommendations for converting casual riders into annual members.
+- `02_business_actions.md` — Who, when, and how to implement each recommendation.
+- `03_final_conclusion.md` — Clear summary of findings and expected business impact.
 
 ## 🧰 **Tools Used**
 
