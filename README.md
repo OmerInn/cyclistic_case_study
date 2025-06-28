@@ -66,32 +66,32 @@ This project follows the **6-step Google Data Analytics process**:
 ##### 📘 Google Sheets  
 > Performs exploratory data analysis using pivot tables.
 
-📄 `pivot_analysis_summary.md` – Summary and interpretation of pivot-based metrics  
-📁 `screenshots/` – Screenshots showing formula use and field calculations  
+-📄 `pivot_analysis_summary.md` – Summary and interpretation of pivot-based metrics  
+-📁 `screenshots/` – Screenshots showing formula use and field calculations  
 
 ---
 
 ##### 💾 SQL  
 > Uses BigQuery to query, clean, and summarize data at scale.
 
-📄 `sql_analysis_process.md` – Full SQL workflow for combining, filtering, and aggregating ride data  
-📄 `summary_findings.md` – Key findings and business insights from SQL analysis  
-📁 `queries/`, `outputs/`, `screenshots/` – Supporting SQL artifacts and visuals  
+-📄 `sql_analysis_process.md` – Full SQL workflow for combining, filtering, and aggregating ride data  
+-📄 `summary_findings.md` – Key findings and business insights from SQL analysis  
+-📁 `queries/`, `outputs/`, `screenshots/` – Supporting SQL artifacts and visuals  
 
 ---
 
 ##### 📈 R  
 > Applies tidyverse-based R programming to visualize and export results.
 
-📄 `R_analysis_process.md` – Step-by-step R pipeline from import to visualization  
-📁 `outputs/` – Includes final charts and `avg_ride_length.csv` export
+-📄 `R_analysis_process.md` – Step-by-step R pipeline from import to visualization  
+-📁 `outputs/` – Includes final charts and `avg_ride_length.csv` export
 
 ### 📤 Share
 > Communicates clear findings through polished visual slides for stakeholders.
 
-📄 `Cyclistic_Case_Study_Presentation.pdf` — Final slide deck summarizing the problem, analysis, insights, and recommendations.
+- 📄 `Cyclistic_Case_Study_Presentation.pdf` — Final slide deck summarizing the problem, analysis, insights, and recommendations.
 
-📄 `README.md` — Brief explanation of the presentation’s purpose and contents.
+- 📄 `README.md` — Brief explanation of the presentation’s purpose and contents.
 
 ## ✅ Act
 Translates insights into practical business actions and next steps.
